@@ -4,12 +4,10 @@
     --background-color: #F1F1EF;
     --box-shadow:0 5px 10px rgba(0, 0, 0, 0.3);
 }
-.nav-link{ 
-    color: var(--secondary-color);
-}
+
 body{
-    margin:60px auto;
-    max-width: 800px;
+   margin: 0;
+   padding-top: 80px;
 }
 h1,h2,h3 {
     text-align: center;
@@ -91,4 +89,20 @@ font-size: 18px;
 }
 .homepage-link:hover {
     color: var(--primary-color);
+}
+@media (max-width: 768px) {
+    h1 {
+        font-size: 60px;
+    }
+
+    h2 {
+        font-size: 40px;
+    }
+
+    h3 {
+        font-size: 24px;
+    }
+    .navigation-links a {
+        margin: 10px;
+    }
 }

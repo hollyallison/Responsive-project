@@ -9,6 +9,9 @@ body{
    margin: 0;
    padding-top: 80px;
 }
+.homepage, .projects, .about, .contact {
+font-family: 'Quicksand', sans-serif;
+}
 h1,h2,h3 {
     text-align: center;
    margin: 0;
@@ -177,7 +180,7 @@ p {
     font-size: 24px;
 }
 .contact-me.container p {
-    font-size: 16px;
+    font-size: 15px;
     margin-top: 20px;
 }
 

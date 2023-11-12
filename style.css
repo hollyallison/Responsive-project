@@ -181,7 +181,6 @@ p {
 }
 .contact-me.container p {
     font-size: 15px;
-    margin-top: 20px;
 }
 
 @media (max-width: 768px) {
